@@ -1,0 +1,323 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.flex_prop{
+
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+
+    padding: 15px 0px;
+    height: 100vh;
+    width: 100%;
+    background-color:#743bf7;
+}
+
+.nav_bar_holder{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_bar_container{
+
+    width: 80%;
+    height: 60px;
+    /* background-color: blue; */
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    padding: 0 30px;
+    position: fixed;
+    transition: 0.4s;
+    z-index: 4;
+}
+
+.nav_menu{
+
+    width: 20%;
+    padding: 20px 20px;
+    /* background-color: yellow; */
+}
+
+.nav_li_holder{
+
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.logo_holder{
+
+    width: 60%;
+    /* background-color: rgb(170, 93, 0); */
+}
+
+
+.logo{
+
+    font-size: 28px;
+    font-family: 'Segoe UI';
+    font-weight: 700;
+    color: white;
+    line-height: 60px;
+}
+
+.btn_holder{
+    
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn{
+
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    outline: none;
+    border: 2px solid white;
+    background-color: transparent;
+    transition: 0.4s;
+}
+
+.btn:hover{
+
+    cursor: pointer;
+    background-color: white;
+    color: black;
+
+}
+
+.title_container{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.punchline_holder{
+
+    width: 100%;
+    padding: 10px 40px;
+    /* background-color: rgb(255, 117, 117); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+
+    font-size: 82px;
+    font-family: 'Segoe UI';
+    color: white;
+    font-weight: 700;
+    line-height: 100px;
+    text-align: center;
+}
+
+.link_holder{
+
+    width: 100%;
+    padding: 10px 40px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.icon_edit{
+
+    margin-top: 25px;
+
+}
+
+i{
+    padding: 5px 10px;
+    font-size: 30px;
+    transition: 0.4s;
+}
+
+i:hover{
+
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
+.link_btn{
+    
+    border-radius: 0px;
+    padding: 15px 60px;
+}
+
+
+/* ----------------------------------------SECTION 2--------------------------------------------------------- */
+
+.about_me_container{
+
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(6, 6, 59);
+    display: flex;
+}
+
+.img_holder{
+    width: 50%;
+    height: 100vh;
+    background-color: aliceblue;
+    background-image: url("https://images.pexels.com/photos/102061/pexels-photo-102061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+
+.about_me_info_holder{
+
+    width: 50%;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+}
+
+.abt_title{
+
+    color: white;
+    font-size: 62px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+p{
+    color: white;
+    font-family: 'Segoe UI';
+    text-align: justify;
+}
+
+.portfolio_corousal_container{
+
+    width: 100%;
+    padding: 30px 10px;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.portfolio_frame_holder{
+
+    width: 80%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.portfolio_title{
+    width: 100%;
+}
+
+
+.poject_frame{
+
+    width: 23%;
+    height: 450px;
+    background-color: rgb(6, 6, 59);
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.poject_frame:hover{
+
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.poject_frame:nth-child(1){
+    
+    background-image: url('https://images.pexels.com/photos/3585000/pexels-photo-3585000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+}
+
+.poject_frame:nth-child(2){
+    
+    background-image: url('https://images.pexels.com/photos/5632379/pexels-photo-5632379.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+}
+
+.poject_frame:nth-child(3){
+    
+    background-image: url('https://images.pexels.com/photos/5082581/pexels-photo-5082581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+}
+
+.poject_frame:nth-child(4){
+    
+    background-image: url('https://images.pexels.com/photos/1262302/pexels-photo-1262302.jpeg');
+    background-size: cover;
+}
+
+
+
+
+/* ---------------------------------------------SECTION 3------------------------------------------------------- */
+
+.work_exp_container{
+
+    width: 100%;
+    background-color: rgb(57,57, 57);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wx-ttl{
+    margin: 30px 0px;
+}
+
+.exp_1{
+
+    display: flex;
+}
+
+.exp_container{
+
+    width: 80%;
+}
+
+.exp_title{
+
+    color: white;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.exp_title_holder{
+
+    width: 30%;
+    padding: 30px;
+}
+
+.exp_description{
+
+    width: 70%;
+    padding: 30px;
+}
