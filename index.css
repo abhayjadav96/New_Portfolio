@@ -58,6 +58,13 @@
     color: white;
 }
 
+li:hover{
+
+    cursor: pointer;
+}
+
+
+
 .logo_holder{
 
     width: 60%;
@@ -73,6 +80,12 @@
     color: white;
     line-height: 60px;
 }
+
+.logo:hover{
+
+    cursor: pointer;
+}
+
 
 .btn_holder{
     
