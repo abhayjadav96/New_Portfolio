@@ -186,7 +186,6 @@ i:hover{
 .about_me_container{
 
     width: 100%;
-    height: 100vh;
     background-color: rgb(6, 6, 59);
     display: flex;
 }

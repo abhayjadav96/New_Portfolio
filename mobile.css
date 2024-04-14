@@ -1,0 +1,71 @@
+@media (min-width: 360px) and (max-width: 480px) {
+
+     
+    .nav_menu{
+
+        display: none;
+    }
+
+    .logo_holder{
+
+        width: 100%;
+    }
+
+    .logo{
+
+        font-size: 22px;
+    }
+
+    .btn_holder{
+
+        display: none;
+    }
+
+    .title{
+
+        font-size: 32px;
+        line-height: 2;
+    }
+
+    .img_holder{
+
+        width: 0%;
+    }
+
+    .about_me_info_holder{
+        width: 100%;
+
+    }
+
+    .portfolio_frame_holder{
+
+        display: block;
+    }
+
+    .poject_frame{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .title{
+
+        padding: 0px 10px;
+        font-size: 24px;
+    }
+
+    .exp_1{
+        display: block;
+    }
+
+    .exp_title_holder{
+
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    .exp_description{
+
+        width: 100%;
+        padding: 10px 0px;
+    }
+}
