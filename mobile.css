@@ -73,4 +73,9 @@
 
         height: 500px;
     }
+
+    .portfolio_nav{
+
+        display: none;
+    }
 }
