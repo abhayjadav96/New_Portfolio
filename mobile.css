@@ -68,4 +68,9 @@
         width: 100%;
         padding: 10px 0px;
     }
+
+    .project_description{
+
+        height: 500px;
+    }
 }
