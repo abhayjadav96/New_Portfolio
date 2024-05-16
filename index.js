@@ -45,3 +45,12 @@ function toTop(){
         behavior:"smooth"
     });
 }
+
+function openPortfolio(){
+
+    window.scrollTo({
+
+        top:1470,
+        behavior: "smooth"
+    });
+}
